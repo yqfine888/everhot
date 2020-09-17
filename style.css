@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul,li,body,h2,p,div {
+	margin:0;
+	padding:0;
+	list-style:none;
+	list-style-type:none;
+}
+body{
+	background-color: aliceblue;
+}
+.page900{
+	width:1160px;
+	margin:0 auto;
+}
+#logo{
+	float:left;
+	margin:0 auto;
+	width:308px;
+}
+#nav{
+	background-color: aquamarine;
+	width:770px;
+	height:59px;
+	float:right;
+}
+#nav li{
+	width:110px;
+	float:right;
+}
+#header{
+	background-color:yellow;
+	height:59px;
+}
+#banner{
+	background-color:gold;
+	background-image:url(images/banner.png);
+	background-repeat:no-repeat;
+	background-position:center center;
+	height: 300px;
+}
+#main{
+	background-color:green;
+}
+#footer{
+	background-color:orangered;
+}
+.section{
+	overflow:hidden;
+}
+.section2{
+	overflow:hidden;
+}
+#left{
+	background-color: #FFFF00;
+	width:866px;
+	float:left;
+}
+#right{
+	background-color:darkmagenta;
+	width:278px;
+	float:right;
+}
+.wangdian li{
+	background-color: #8B008B;
+	margin:0 0 16px 0;
+	float:left;
+	overflow:hidden;
+	width:376px;
+}
+.wd-pic1{
+	width:160px;
+	float:left;
+}
+.wd-txt1{
+	width:184px;
+	float:right;
+}
+
+
+
+
+
+
+
+
+
