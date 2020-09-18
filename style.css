@@ -7,32 +7,64 @@ ul,li,body,h2,p,div {
 	padding:0;
 	list-style:none;
 	list-style-type:none;
+	/*
+	list-style-type:设置列表符号的类型
+	disc
+	border:1px solid yanse
+	
+	none:
+	*/
 }
 body{
-	background-color: aliceblue;
+	background-color:#f4f4f4;
 }
 .page900{
 	width:1160px;
 	margin:0 auto;
 }
+#header{
+	background-color:white;
+	height:59px;
+}
 #logo{
+	/* background-color: red; */
 	float:left;
-	margin:0 auto;
+	/* margin:0 auto; */
 	width:308px;
 }
+#logo img{
+	height:59px;
+	display:block;  
+	/*display:设置元素的显示类型
+	属性值：
+	-block  把元素设置为块元素； 特点:块元素独占一行，可设置元素的宽高
+	-inline 把元素设置为行内元素；  特点:不会独占一行，不可设置元素的宽高
+	-inline-block  把元素设置为行内块元素
+	    -<img/>属于行内块元素；  特点:默认状态下为行内元素，不加display属性，也可更改元素的宽高
+	*/
+}
 #nav{
-	background-color: aquamarine;
+	/* background-color:red; */
 	width:770px;
 	height:59px;
 	float:right;
+	overflow:hidden;
 }
 #nav li{
+	/* background-color: #00FFFF; */
 	width:110px;
-	float:right;
+	/* height:59px; */
+	float:left;
+	text-align:center;
 }
-#header{
-	background-color:yellow;
+#nav li a{
+	/* background-color: plum; */
+	display:block;
 	height:59px;
+	/* margin:0 1px 0 0; */
+	text-decoration:none;  /* 去掉下划线 */
+	line-height: 59px;
+	color:black;
 }
 #banner{
 	background-color:gold;
@@ -42,48 +74,108 @@ body{
 	height: 300px;
 }
 #main{
-	background-color:green;
+	background-color:#F4F4F4;
 }
-#footer{
-	background-color:orangered;
+#breadcrumbs{
+	/* background-color: #000000; */
+	padding:50px 0 50px 0;
+	/* padding:50px 0; */
 }
-.section{
+.section h2{
+	padding:50px 0;
+	text-align: center;
+}
+.section1{
 	overflow:hidden;
 }
 .section2{
 	overflow:hidden;
 }
 #left{
-	background-color: #FFFF00;
-	width:866px;
+	background-color: #FFF;
+	width:810px;
 	float:left;
+	margin:0 16px 0 0;
+	/* border:1px solid black; */
+	padding:20px;
 }
 #right{
-	background-color:darkmagenta;
-	width:278px;
+	background-color:white;
+	width:238px;
 	float:right;
+	/* margin:0 16px 0 0; */
+	/* border:1px solid black; */
+	padding:20px;
+}
+.wangdian{
+	background-color: yellow;
+	overflow:hidden;
 }
 .wangdian li{
-	background-color: #8B008B;
-	margin:0 0 16px 0;
+	background-color: #fff;
+	margin:0 16px 16px 0px;
+	padding:10px ;
+	width:346px;
 	float:left;
 	overflow:hidden;
-	width:376px;
 }
 .wd-pic1{
-	width:160px;
 	float:left;
 }
-.wd-txt1{
-	width:184px;
-	float:right;
+.wd-pic1 img{
+	display: block;
+	width:160px;
 }
-
-
-
-
-
-
-
+.wd-txt1{
+	width:176px;
+	padding:0 0 0 10px;
+	float:right;
+	font-size: 14px;
+}
+#footer{
+	background-color:orangered;
+}
+.sitemap{
+	background-color: darkorange;
+	overflow:hidden;
+}
+.copyright{
+	background-color:darkblue;
+}
+.contact{
+	background-color:cornflowerblue;
+	width:300px;
+	float:left;
+	/* height:180px; */
+}
+.footer_menu{
+	background-color:aqua;
+	float:left;
+	width:860px;
+	/* height:180px; */
+	/* overflow:hidden; */
+}
+.share ul{
+	overflow:hidden;
+}
+.share ul li{
+	width:286px;
+	background-color: yellow;
+	float:left;
+}
+.share ul li img{
+	width:50px;
+	height:50px;
+}
+.f_menu{
+	float:left;
+}
+.f_item{
+	overflow:hidden;
+}
+#heng{
+	width:245px;
+	height:114px;
+}
 
 

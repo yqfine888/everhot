@@ -9,7 +9,9 @@
 		<!-- <div id='wrap'> -->
 		<div id='header'>
 			<div class='page900'>
-			<img src="images/zu.png" id='logo'>
+			<div id='logo'>
+			<img src="images/zu.png">
+			</div>
 			<ul id='nav'>
 				<li><a href="index.html">首页</a></li>
 				<li><a href="hengre.html">走进恒热</a></li>
@@ -26,9 +28,11 @@
 			<!-- <img src="./images/蒙版组%205.png"> -->
 		</div>
 		<div id='main' class='page900'>
+		<div id='breadcrumbs'>
 		<span>您的位置:<a href="index.html">首页</a>>售后服务</span>
-		<h2 align='center'>服务政策</h2>
-		<div class='section'>
+		</div>
+		<div class='section1 section'>
+			<h2 align='center'>服务政策</h2>
 		<div id='left'>
 		<h3>购买须知</h3>
 		<h4>【下单后信息不可修改】</h4>
@@ -85,9 +89,9 @@
 			<li><a href="#">保修免责范围</a></li>
 			</ul>
 		</div> <!-- div=right  END -->
-		</div>  <!-- section -->
+		</div>  <!-- section1 -->
+		<div class='section2 section'>
 		<h2 align='center'>服务网点</h2>
-		<div class='section2'>
 		<ul class='wangdian'>
 		<li>
 			<div class='wd-pic1'>
@@ -160,16 +164,19 @@
 		</div> <!--main END -->
 		<div id='footer'>
 			<div class='page900'>
-			<img src='images/logo.png'>
-		<div>
+			<div class='sitemap'>  <!-- 包一 -->
+				<div class='contact'>  <!-- 左边logo元素块 -->
+			<img src='images/logo.png' id='heng'>
 			<h4>恒热热水器集团</h4>
 			<ul>
 				<li>联系电话：18511463191（周先生）</li>
 				<li>服务热线：010-83696980      QQ:1242921557</li>
 				<li>公司地址：北京市大兴区西红门理想城礼域府23-2-103</li>
 			</ul>  
-		</div>
-		<div>
+		</div>  <!-- contact -->
+		<div class='footer_menu'>  <!-- 右边信息logo元素块 -->
+			<div class='f_item'>  <!-- 公司信息 -->
+			<div class='f_menu'>
 			<h4>公司</h4>
 			<ul>
 				<li><a href="#">公司简介</a></li>
@@ -177,51 +184,54 @@
 				<li><a href="#">加入我们</a></li>
 				<li><a href="#">友情链接</a></li>
 			</ul>
-		</div>
-		<div>
-		<h4>产品分类</h4>
-		<ul>
-			<li><a href="#">商用热水器</a></li>
-			<li><a href="#">恒热热水器</a></li>
-			<li><a href="#">电热水器</a></li>
-			<li><a href="#">燃气热水器</a></li>
-		</ul>
-		</div>
-		<div>
-		<h4>售后服务</h4>
-		<ul>
-			<li><a href="#">服务网点</a></li>
-			<li><a href="#">360天天无忧</a></li>
-			<li><a href="#">7天无理由退货</a></li>
-			<li><a href="#">零部件三包标准</a></li>
-		</ul>
-		</div>
-		<div>
-		<h4>新闻动态</h4>
-		<ul>
-			<li><a= href="#">公司新闻</a></li>
-			<li><a= href="#">行业新闻</a></li>
-			<li><a= href="#">技术文章</a></li>
-		</ul>
-		</div>
-		<div>
-		<h4>购买渠道</h4>
-		<ul>
-			<li><a href="#">京东旗舰店</a></li>
-			<li><a href="#">天猫旗舰店</a></li>
-		</ul>
-		</div>
-		<div>
-		<h4>社交账号</h4>
-		<ul>
-			<li><img src='images/weixin.png'></li>
-			<li><img src="images/jd.png"/></li>
-			<li><img src="images/weibo.png"/></li>
-		</ul>
-		</div>
-		<p>
-			版权信息©2008-2020 恒热集团  保留所有版权备案信息京ICP备12003417-1
-		</p>
+			</div>
+			<div class='f_menu'>
+				<h4>产品分类</h4>
+				<ul>
+					<li><a href="#">商用热水器</a></li>
+					<li><a href="#">恒热热水器</a></li>
+					<li><a href="#">电热水器</a></li>
+					<li><a href="#">燃气热水器</a></li>
+				</ul>
+			</div>
+			<div class='f_menu'>
+				<h4>售后服务</h4>
+				<ul>
+					<li><a href="#">服务网点</a></li>
+					<li><a href="#">360天天无忧</a></li>
+					<li><a href="#">7天无理由退货</a></li>
+					<li><a href="#">零部件三包标准</a></li>
+				</ul>
+			</div>
+			<div class='f_menu'>
+				<h4>新闻动态</h4>
+				<ul>
+					<li><a href="#">公司新闻</a></li>
+					<li><a href="#">行业新闻</a></li>
+					<li><a href="#">技术文章</a></li>
+				</ul>
+			</div>
+			<div class='f_menu'>
+				<h4>购买渠道</h4>
+				<ul>
+					<li><a href="#">京东旗舰店</a></li>
+					<li><a href="#">天猫旗舰店</a></li>
+				</ul>
+			</div>
+		</div>  <!-- f_item -->
+		<div class='share'>
+			<h4>社交账号</h4>
+			<ul>
+				<li><img src='images/weixin.png'></li>
+				<li><img src="images/jd.png"/></li>
+				<li><img src="images/weibo.png"/></li>
+			</ul>
+		</div>  <!-- share -->
+		</div>  <!-- footer_menu -->
+		</div>  <!-- sitemap -->
+		<div class='copyright'>  <!-- 包二 -->
+			<p>版权信息©2008-2020 恒热集团  保留所有版权备案信息京ICP备12003417-1</p>
+		</div> <!-- copyright -->
 		</div>  <!-- page900 -->
 		</div>  <!-- footer END -->
 	</body>
