@@ -70,72 +70,13 @@ body{
 /* 头部区域 END */
 #banner{
 	background-color:gold;
-	background-image:url(images/banner.png);
+	background-image:url(images/banner1.png);
 	background-repeat:no-repeat;
 	background-position:center center;
-	height: 300px;
+	height: 800px;
 }
 /* 主体区域 */
-#main{
-	background-color:#F4F4F4;
-}
-#breadcrumbs{
-	/* background-color: #000000; */
-	padding:50px 0 50px 0;
-	/* padding:50px 0; */
-}
-.section h2{
-	padding:50px 0;
-	text-align: center;
-}
-.section1{
-	overflow:hidden;
-}
-.section2{
-	overflow:hidden;
-}
-#left{
-	background-color: #FFF;
-	width:810px;
-	float:left;
-	margin:0 16px 0 0;
-	/* border:1px solid black; */
-	padding:20px;
-}
-#right{
-	background-color:white;
-	width:238px;
-	float:right;
-	/* margin:0 16px 0 0; */
-	/* border:1px solid black; */
-	padding:20px;
-}
-.wangdian{
-	/* background-color: yellow; */
-	overflow:hidden;
-	
-}
-.wangdian li{
-	background-color: #fff;
-	margin:0 10px 20px 10px;
-	padding:10px ;
-	width:342px;
-	float:left;
-	overflow:hidden;
-}
-.wd-pic1{
-	float:left;
-}
-.wd-pic1 img{
-	display: block;
-	width:160px;
-}
-.wd-txt1{
-	width:172px;
-	padding:0 0 0 10px;
-	float:right;
-	font-size: 14px;
-}
+
 /* 主体区域 END */
 /* 页脚区域 */
 #footer{
